@@ -3,6 +3,10 @@
     {
       "source": "/3/:path*",
       "destination": "/api/:path*"
+    },
+    {
+      "source": "/image.tmdb.org/:path*",
+      "destination": "/api/:path*"
     }
   ]
 }
